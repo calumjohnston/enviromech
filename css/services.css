@@ -9,11 +9,7 @@
 	height: 420px!important;
 }
 
-.about-container{
-/* max-width: 1400px; */
-margin: 0 auto;
-background: white;
-}
+.about-container{/* max-width: 1400px; */margin: 0 auto;background: white;padding: 0px 40px;}
 .second{/* flex-direction: column-reverse; */margin-bottom: 90px!important;}
 .right-2{
     padding-right: 60px!important;
