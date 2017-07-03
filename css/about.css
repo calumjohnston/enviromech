@@ -3,7 +3,8 @@
 /* About page */
 
 .sub-hero{
-	height: 360px!important;
+	height: 60px!important;
+	background: rgb(240,240,240);
 }
 .sub-hero-content{
 	height: 440px!important;
@@ -15,13 +16,14 @@ margin: 0 auto;
 background: white;
 }
 .about-wrap{
-
 }
-.about-page-content{display: flex;max-width: 1400px;width: 100%;margin: 0 auto;padding-top: 140px;justify-content: space-between;/* padding-bottom: 120px; */padding: 80px 50px 120px 50px;}
-.about-page-content .left{/* background: white; */width: 800px;min-width: 520px;/* float: left; */padding-right: 60px;}
+.breadcrumbs{}
+.about-page-content{display: flex;max-width: 1400px;width: 100%;margin: 0 auto;padding-top: 140px;justify-content: space-between;/* padding-bottom: 120px; */padding: 50px 50px 120px 50px;}
+.about-page-content .left{/* background: white; */width: 900px;min-width: 520px;/* float: left; */padding-right: 20px;text-align: justify;}
 .about-page-content .right{
 	display:flex;
 	flex-direction:column;
+	justify-content: flex-start;
 	/* float: left; */
 	width: 600px;
 }
@@ -54,6 +56,7 @@ background: white;
 }
 .left p{
 	line-height:1.8em;
+	font-size: 15px;
 }
 
 

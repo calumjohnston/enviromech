@@ -3,12 +3,23 @@
 /* About page */
 
 .sub-hero{
-	height: 360px!important;
+	/* height: 40px!important; */
+	height: 60px!important;
+	background: rgb(240,240,240);
 }
 .sub-hero-content{
 	height: 420px!important;
 }
-
+.map1{
+width: 100%;
+}
+iframe{
+	    width: 100%;
+	    height: 170px;
+}
+.map2{
+width: 100%;
+}
 .about-container{
 /* max-width: 1400px; */
 margin: 0 auto;
@@ -17,13 +28,14 @@ background: white;
 .about-wrap{
 
 }
-.about-page-content{display: flex;max-width: 1400px;width: 100%;margin: 0 auto;padding-top: 140px;justify-content: space-between;/* padding-bottom: 120px; */padding: 80px 50px 120px 50px;}
-.about-page-content .left{/* background: white; */width: 800px;min-width: 520px;/* float: left; */padding-right: 60px;}
+.about-page-content{display: flex;max-width: 1400px;width: 100%;margin: 0 auto;padding-top: 140px;justify-content: space-between;/* padding-bottom: 120px; */padding: 80px 50px 50px 50px;}
+.about-page-content .left{/* background: white; */width: 30%;/* min-width: 520px; *//* float: left; */padding-right: 40px;height: 420px;}
 .about-page-content .right{
 	display:flex;
 	flex-direction:column;
 	/* float: left; */
-	width: 600px;
+	justify-content: space-between;
+	width: 70%;
 }
 .about-page-content .right img{
     margin-top: 5px;
@@ -44,6 +56,10 @@ background: white;
 	margin-bottom: 40px;
 	color: #444;
 	border-bottom: 3px solid rgb(235,235,235);
+	max-width: 1300px;
+	margin: 0 auto;
+	margin-top: 60px;
+	padding: 0px 60px 30px 60px;
 }
 
 .left p a,.right span a{
@@ -63,9 +79,9 @@ color: #666;
 }
 
 .office-title{
-margin-bottom: 5px;
-margin-top: 40px;
-color: #333;
+margin-bottom: 5px;
+margin-top: 40px;
+color: #333;
 }
 
 @media (max-width:1080px){

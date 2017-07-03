@@ -3,10 +3,11 @@
 /* About page */
 
 .sub-hero{
-	height: 360px!important;
+	height: 60px!important;
+	background: rgb(240,240,240);
 }
 .sub-hero-content{
-	height: 420px!important;
+	height: 440px!important;
 }
 
 .about-container{/* max-width: 1400px; */margin: 0 auto;background: white;padding: 0px 40px;}
@@ -24,8 +25,8 @@
 	border: 50px solid #F4A560;
 	background: #F4A560;
 	color: white;
-	height: 250px;
-	width: 250px;
+	height: 180px;
+	width: 180px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
